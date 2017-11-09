@@ -1,0 +1,217 @@
+body {  
+  text-align: center;  
+  font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;  
+  background-color: #767b7f;
+}
+
+h1 {  
+  color: blue;  
+  margin-top: 4px;
+}
+
+h3 {  
+  color: #90a9bd;
+}
+
+img {  
+  border-top-width: medium;  
+  border-top-style: none;  
+  border-top-color: initial;
+  border-top-color: -moz-initial;  
+  border-right-width: medium;  
+  border-right-style: none;  
+  border-right-color: initial;
+  border-right-color: -moz-initial;  
+  border-bottom-width: medium;  
+  border-bottom-style: none;  
+  border-bottom-color: initial;
+  border-bottom-color: -moz-initial;  
+  border-left-width: medium;  
+  border-left-style: none;  
+  border-left-color: initial;
+  border-left-color: -moz-initial;
+}
+
+#container {  
+  margin-top: auto;  
+  margin-right: auto;  
+  margin-bottom: auto;  
+  margin-left: auto;  
+  width: 800px;  
+  height: auto;  
+  background-color: white;  
+  text-align: center;  
+  background-image: url("bg.jpg");  
+  color: #767b7f;
+}
+
+#header {  
+  text-align: center;  
+  background-image: url("header.jpg");  
+  height: 160px;  
+  width: 800px;  
+  margin-bottom: 0px;  
+  background-repeat: no-repeat;  
+  background-position: center top;
+}
+
+#mainCell {  
+  text-align: center;  
+  width: 800px;  
+  height: auto;
+}
+
+#content {  
+  width: 790px;  
+  height: auto;  
+  margin-top: auto;  
+  margin-right: auto;  
+  margin-bottom: auto;  
+  margin-left: auto;  
+  text-align: left;
+}
+
+#footer {  
+  background-image: url("footer.gif");  
+  background-repeat: no-repeat;  
+  height: 45px;  
+  width: 800px;  
+  text-align: center;  
+  font-size: 10px;
+}
+
+a {  
+  color: #6b78a9;  
+  text-decoration: none;
+}
+
+a:hover {  
+  color: blue;  
+  text-decoration: underline;
+}
+
+.news {  
+  width: 160px;  
+  height: auto;  
+  background-color: #a4bacf;  
+  clear: right;  
+  float: right;  
+  text-align: left;  
+  color: black;  
+  font-size: 12px;  
+  padding-top: 2px;  
+  padding-right: 2px;  
+  padding-bottom: 2px;  
+  padding-left: 2px;
+}
+
+.news h4 {  
+  text-align: center;  
+  margin-top: 4px;  
+  margin-bottom: 4px;
+}
+
+.news a {  
+  color: blue;  
+  text-decoration: none;
+}
+
+.news a:hover {  
+  color: #6b78a9;  
+  text-decoration: underline;
+}
+
+#tabs {  
+  float: left;  
+  width: 100%;  
+  font-size: 93%;  
+  line-height: normal;
+}
+
+#tabs ul {  
+  margin-top: 0px;  
+  margin-right: 0px;  
+  margin-bottom: 0px;  
+  margin-left: 0px;  
+  padding-top: 2px;  
+  padding-right: 10px;  
+  padding-bottom: 0px;  
+  padding-left: 5px;  
+  list-style-type: none;  
+  list-style-position: outside;  
+  list-style-image: none;
+}
+
+#tabs li {  
+  display: inline;  
+  margin-top: 0px;  
+  margin-right: 0px;  
+  margin-bottom: 0px;  
+  margin-left: 0px;  
+  padding-top: 0px;  
+  padding-right: 0px;  
+  padding-bottom: 0px;  
+  padding-left: 0px;
+}
+
+#tabs a {  
+  float: left;  
+  background-color: transparent;  
+  background-image: url("tableft.gif");  
+  background-repeat: no-repeat;  
+  background-attachment: scroll;  
+  background-position: left top;  
+  margin-top: 0px;  
+  margin-right: 0px;  
+  margin-bottom: 0px;  
+  margin-left: 0px;  
+  padding-top: 0px;  
+  padding-right: 0px;  
+  padding-bottom: 0px;  
+  padding-left: 7px;  
+  text-decoration: none;
+}
+
+#tabs a span {  
+  float: left;  
+  display: block;  
+  background-color: transparent;  
+  background-image: url("tabright.gif");  
+  background-repeat: no-repeat;  
+  background-attachment: scroll;  
+  background-position: right top;  
+  padding-top: 5px;  
+  padding-right: 15px;  
+  padding-bottom: 4px;  
+  padding-left: 6px;  
+  color: #6b78a9;
+}
+
+#tabs a span {  
+  float: none;
+}
+
+#tabs a:hover span {  
+  color: #6b78a9;
+}
+
+#tabs a:hover {  
+  background-position: 0% -42px;
+}
+
+#tabs a:hover span {  
+  background-position: 100% -42px;
+}
+
+#tabs #current a {  
+  background-position: 0% -42px;
+}
+
+#tabs #current a span {  
+  background-position: 100% -42px;
+}
+
+#muid {  
+  background-color: #e8e8e8;
+}
+
